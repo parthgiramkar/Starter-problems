@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    /*
+    int a ;
+    cout<<"enter the number - "<<endl;
+    cin>>a;
+    
+    if(a%2==0) {
+        cout<<"the no. is even";
+    }
+    else {
+        cout<<"the no. is odd";
+    }
+    */
+    int cnt=0;
+    for(int i=45;i<51;i++) {
+        if(i==0) {
+            cout<<i<<" a whole number"<<endl;
+        }
+        else if(i%2==0) {
+            cout<<i<<" is even"<<endl;
+            cnt++;
+        }
+        else {
+            cout<<i<<"  is odd "<<endl;
+        }
+        
+    }
+    cout<<"the no. of even num's are - "<<cnt;
+    
+}
