@@ -20,11 +20,14 @@ int main() {
     return 0;
     */
     
-    int sum;
+    int sum , cnt=0;
     for(int i=0;i<11;i++) {
-        sum=sum+i;
+        sum+=i;
+        cnt++;
     }
-    cout<<"the sum of number are - "<<sum;
+    cout<<"the sum of "<< cnt<<" numbers are - "<<sum;
+     
+
     
     
     
