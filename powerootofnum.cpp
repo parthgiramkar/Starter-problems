@@ -21,7 +21,7 @@ int main() {
     }
     cout<<endl;
     
-    cout<<"the powers of 2 are -  "<<endl;
+    cout<<"The powers of 2 are -  "<<endl;
     for(int i=0;i<11;i++) {
         cout<<pow(2,i)<<"  ";
     }
@@ -30,9 +30,20 @@ int main() {
     if(sqrt(n)==3) {        //n/3==3
         cout<<n<<" is sqrt of 3"<<endl;
     }
+    
     if(n<=0) {
         cout<<"Dont be oversmart";
     }
+    
+    cout<<"The multiples of "<<n<<" are - "<<endl;
+    for(int i=0;i<13;i++) {
+        if(i==0) {
+        }
+        else {
+            cout<<n*i<<" ";
+        }    
+    }
+    cout<<endl;
     while(n%5==0) {
         n=n/5;
     }
